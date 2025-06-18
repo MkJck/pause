@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Светло-серый фон */
+    margin: 0; /* Убираем стандартные отступы */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Занимает всю высоту экрана */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Белый фон для контейнера */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1 {
+    color: #333; /* Темно-серый заголовок */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Зеленый фон для кнопки */
+    color: white; /* Белый текст */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона */
+}
+
+button:hover {
+    background-color: #3e8e41; /* Более темный зеленый при наведении */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555; /* Серый текст */
+}
+
+#lastPuff {
+    font-weight: bold; /* Жирный текст для времени */
+}
