@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #b91d1d; /* Светло-серый фон */
+    background-color: #1b191b; /* dark purple bg */
     margin: 0; /* Убираем стандартные отступы */
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    background-color: #fff; /* Белый фон для контейнера */
+    background-color: #2b1f29; /* purple container bg */
     border-radius: 10px; /* Закругленные углы */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
 }
