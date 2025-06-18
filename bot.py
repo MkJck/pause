@@ -13,7 +13,7 @@ async def start(update: Update, context: CallbackContext):
     web_app_keyboard = [
         [KeyboardButton(text="Open Pause App", web_app=WebAppInfo(url="https://pause-git-main-mkjcks-projects.vercel.app/"))]
     ]
-    reply_markup = ReplyKeyboardMarkup(web_app_keyboard)
+    reply_markup = ReplyKeyboardMarkup(web_app_keyboard, resize_keyboard=True, one_time_keyboard=False)
 
     # Отправляем сообщение с кнопкой
     await update.message.reply_text(
